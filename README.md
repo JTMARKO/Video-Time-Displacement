@@ -49,3 +49,6 @@ python cli.py --input_file input.mp4 --file_name output.mp4 --fps 30 --seconds_a
 
 This command will compile `input.mp4` with noise modifiers, using `modifier.png` as the modifier file, and save the output as `output.mp4` with 30 frames per second, with the video displacement being 2 seconds ahead.
 
+## To-Do
+
+* Add support for displacement video. This will make all functionality of just running files and editing them available to the command line
