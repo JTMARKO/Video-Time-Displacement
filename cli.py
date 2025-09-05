@@ -15,9 +15,9 @@ def parse_args():
     parser.add_argument(
         "--fps", type=int, default=60, help="Frames per second for the output video."
     )
-    parser.add_argument(
-        "--density", type=int, default=300, help="Density of the noise modifier."
-    )
+    # parser.add_argument(
+    #     "--density", type=int, default=300, help="Density of the noise modifier."
+    # )
     parser.add_argument(
         "--seconds_ahead",
         type=int,
